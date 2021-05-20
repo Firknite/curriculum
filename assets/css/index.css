@@ -1,0 +1,33 @@
+.card {
+    background: none;
+    border: none;
+}
+.lector {
+    background-image: url(../img/lector.jpg);
+}
+.coffee {
+    background-image: url(../img/background-coffee.jpg);
+}
+.gatito {
+    background-image: url(../img/gatito.jpg);
+    background-position: -30em;
+    color: black;
+}
+.no-repeat {
+    background-repeat: no-repeat;
+}
+.principal {
+    height: 950px;
+}
+.secundario {
+    height: 425px;
+}
+.bandera {
+    width: 200px;
+}
+.justificar {
+    text-align: justify;
+}
+.carta-estandar {
+    width: 48rem;
+}
