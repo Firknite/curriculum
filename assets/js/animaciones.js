@@ -11,8 +11,8 @@ window.addEventListener("scroll", function () {
         if (target.offsetTop < (top + (windowHeight / 1.5))) {
             target.classList.add("visible");
         }
-        else {
-            target.classList.remove("visible");
-        }
+        // else {
+        //     target.classList.remove("visible");
+        // }
     }
 });

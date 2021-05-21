@@ -4,18 +4,14 @@
     color: #FFF;
 }
 .left {
-    background-color: rgb(65, 138, 65);
     transform: translateX(-100vw);
 }
 .right {
-    background-color: rgb(65, 91, 138);
     transform: translateX(100vw);
 }
 .zoom {
-    background-color: rgb(138, 65, 65);
     transform: scale(2,2);
 }
-
 .target.visible {
     opacity: 1;
     transform: translateX(0);
