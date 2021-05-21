@@ -18,10 +18,10 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row coffee principal">
+        <div class="row coffee principal no-repeat">
             <div class="d-inline-flex flex-row align-items-center justify-content-center">
                 <div class="p-2">
-                    <div class="card carta-estandar">
+                    <div class="card carta-estandar carta-sin-fondo">
                         <div class="card-body">
                             <h1 class="card-title text-white">Rigoberto Torres Claviere</h1>
                             <h2 class="card-subtitle mb-2 text-white-50">Desarrollado Fullstack</h2>
@@ -42,11 +42,70 @@
                 </div>
             </div>
         </div>
+        <div class="row coffee-2 principal no-repeat">
+            <div class="pt-5 px-5">
+                <h1 class="text-center text-white pt-5 mt-5 mb-5">Experiencia</h1>
+                <div class="d-flex flex-row align-items-center justify-content-center pt-5 mt-5">
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Desarrollo de aplicaciones web, implementación de librería Amcharts para reportes dinámicos, implementación de librería Bootstrap y MDBoostrap para frontend. Manejo de framework CodeIgniter. Desarrollos varios en lenguajes: PHP, VB, C# (Desarrollo de web services) para backend y html5, css3, jquery, javascript para el frontend. Administración bases de datos mysql y sql server.">
+                        <div class="avatar turavion"></div>
+                    </span>
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Desarrollo de aplicaciones en backend en de bases de
+                    datos y middlewares. Bases de datos SQL Server.
+                    Creación de procedimientos de almacenado, modelamiento de tablas y atomización de
+                    funcionalidades. Por otra parte, desarrollo de APIs RESTfull
+                    con NodeJS. Trabajos con Angular 5 y más profundamente con React.">
+                        <div class="avatar glgroup"></div>
+                    </span>
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Desarrollo de aplicación web con microservicios. En backend, utilización de apis con nodeJS y TypeScript. Bases de datos Postgress como relacional y mongoDB como no relacional. En frontend, se utiliza Angular 8. Control de versiones con GIT. Scrum como metodología agil.">
+                        <div class="avatar trebol"></div>
+                    </span>
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Desarrollo y manutención de APIs Rest con NodeJS. Control de versiones con Gitlab, administración de tareas con Jira e implementación de framework Scrum. Implementación de Docker para levantamiento de aplicaciones. CI/CD con bamboo.">
+                        <div class="avatar agilesoft"></div>
+                    </span>
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Desarrollo de piezas digitales en el contexto backend, trabajo con tecnologías nodejs y angular 7+. Implementación de test unitarios y CI/CD. Desarrollo para sistemas internos de Banco estado. Framework de trabajo ágil con Scrum.">
+                        <div class="avatar kibernum"></div>
+                    </span>
+
+                    <span class="margen-auto" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Participación en célula evolutiva, encargada de mantención y corrección de problemas en procesos internos de Falabella, en su gran mayoría proyectos realizados en base a NodeJS + Express. Pruebas unitarias realizadas con jest, Gitlab para pipelines y como repositorio GIT. Participación en proyectos de migración de datos, automatización de procesos con python e implementación de herramientas storage y bigquery de GCP.">
+                        <div class="avatar bridge"></div>
+                    </span>
+
+                </div>
+            </div>
+            <!-- <div class="d-flex flex-row align-items-center justify-content-center pt-5 mt-5">
+                <div class="card carta-sm">
+                        <div class="card-body">
+                            <p class="card-text text-white justificar">
+                                Participación en célula evolutiva, encargada de mantención y corrección de problemas en
+                                procesos internos de Falabella, en su gran mayoría proyectos realizados en base a NodeJS
+                                + Express. Pruebas unitarias realizadas con jest, Gitlab para pipelines y como
+                                repositorio GIT. Participación en proyectos de migración de datos, automatización de
+                                procesos con python e implementación de herramientas storage y bigquery de GCP.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+            </div> -->
+        </div>
         <div class="row secundario">
             <div class="col pt-5 px-5 lector no-repeat">
                 <div class="d-inline-flex flex-column align-items-center justify-content-center p-5">
                     <h1 class="text-center text-white">Estudios</h1>
-                    <div class="card pt-5">
+                    <div class="card carta-sin-fondo pt-5">
                         <div class="card-body">
                             <h1 class="card-title text-white">Duoc UC</h1>
                             <h2 class="card-subtitle mb-2 text-white-50">Analista Programador computacional 2015 - 2017
@@ -59,31 +118,36 @@
                 <h1 class="text-center pt-5">Idiomas</h1>
                 <div class="d-flex flex-row align-items-center justify-content-center">
 
-                    <div class="card m-5 bandera">
-                        <h5 class="card-title">Español: nativo</h5>
+                    <div class="card carta-sin-fondo bandera m-5">
+                        <h5 class="card-title text-center">Español: nativo</h5>
                         <img src="assets/img/spain_flag.png" class="card-img-top" alt="españita" height="100px">
                     </div>
 
-                    <div class="card m-5 bandera">
-                        <h5 class="card-title text-white">Inglés: Intermedio.</h5>
+                    <div class="card carta-sin-fondo bandera m-5">
+                        <h5 class="card-title text-white text-center">Inglés: Intermedio.</h5>
                         <img src="assets/img/Flag_of_the_United_States.svg" class="card-img-top" alt="gringos"
                             height="100px">
                     </div>
                 </div>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+        <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        </script>
+
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
