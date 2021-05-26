@@ -1,7 +1,3 @@
-.card {
-    background: none;
-    border: none;
-}
 .lector {
     background-image: url(../img/lector.jpg);
     background-size: cover;
@@ -12,7 +8,7 @@
     background-size: cover;
 }
 .coffee-2 {
-    background-image: url(../img/astronauta.jpg);
+    background-image: url(../img/motorcycle.jpg);
     background-size: cover;
     background-position: 50%;
 }
@@ -37,6 +33,9 @@
 }
 .carta-estandar {
     width: 48rem;
+}
+.carta-md {
+    width: 24rem;
 }
 .carta-sm {
     width: 12rem;
@@ -76,4 +75,9 @@ div.avatar {
 }
 .margen-auto {
     margin: auto;
+}
+.terciario {
+    height: 100%;
+    background: rgb(51, 2, 12) no-repeat;
+    background-size: cover;
 }
